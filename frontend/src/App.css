@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+
+
+.bg-gradient1{
+  background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
+}
+.gradient1{
+  background: rgb(53, 92, 125) 88.8%;
+}
+
+.bg-gradient2{
+  background: linear-gradient(178.1deg, rgb(60, 55, 106) 8.5%, rgb(23, 20, 69) 82.4%);
+}
+
+/* Add this to your CSS stylesheet */
+.active-link {
+  color: #fff; /* Text color for the active link */
+  background-color: #4299e1; /* Background color for the active link */
+}
+
+
+
+
+
+
+
+
+
